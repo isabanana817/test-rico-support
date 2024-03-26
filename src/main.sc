@@ -8,16 +8,11 @@ theme: /
 
     state: Hello
         intent!: /hello
-        a: Hello hello
+        a: How may I assist you today?
 
     state: Bye
         intent!: /bye
         a: Bye bye
-
-    state: KnowledgeBase
-        intentGroup!: /KnowledgeBase
-        a: I found the answer in the knowledge base!
-        script: $faq.pushReplies();
 
     state: NoMatch
         event!: noMatch
